@@ -427,27 +427,27 @@ function scoreIncrease() {
 /* ---- AUDIO ---- */
 
 function playSideBumpMP3() {
-  const sideBumpMP3 = new Audio("./assets/bump-side.mp3");
+  const sideBumpMP3 = new Audio("./bump-side.mp3");
   sound && sideBumpMP3.play();
 }
 
 function playSwitchDirectionsMP3() {
-  const switchDirectionsMP3 = new Audio("./assets/switch-directions.mp3");
+  const switchDirectionsMP3 = new Audio("./switch-directions.mp3");
   sound && switchDirectionsMP3.play();
 }
 
 function playPointMP3() {
-  const pointMP3 = new Audio("./assets/point.mp3");
+  const pointMP3 = new Audio("./point.mp3");
   sound && pointMP3.play();
 }
 
 function playExplodeMP3() {
-  const explodeMP3 = new Audio("./assets/explode.mp3");
+  const explodeMP3 = new Audio("./explode.mp3");
   sound && explodeMP3.play();
 }
 
 function playHighScoreMP3() {
-  const highScoreMP3 = new Audio("./assets/high-score.mp3");
+  const highScoreMP3 = new Audio("./high-score.mp3");
   sound && highScoreMP3.play();
 }
 
