@@ -14,7 +14,7 @@ body {
   gap: 6px;
   background: #13e297;
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   font-family: "Ubuntu Mono", monospace;
   overflow: hidden;
 }
@@ -83,4 +83,5 @@ main {
 #tip {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.28);
+  user-select: none;
 }

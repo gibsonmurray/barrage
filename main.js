@@ -311,8 +311,12 @@ function toggleDirection(event) {
   }
 }
 
-window.addEventListener("click", toggleDirection);
-window.addEventListener("keydown", toggleDirection);
+if (window.innerWidth < 1000) {
+  window.addEventListener("touchstart", toggleDirection);
+} else {
+  window.addEventListener("click", toggleDirection);
+  window.addEventListener("keydown", toggleDirection);
+}
 
 const restartBtn = document.querySelector("#replay");
 restartBtn.addEventListener("click", restartTransition);
