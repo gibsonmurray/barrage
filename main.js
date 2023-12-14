@@ -312,7 +312,6 @@ function toggleDirection(event) {
 }
 
 window.addEventListener("click", toggleDirection);
-window.addEventListener("touchstart", toggleDirection);
 window.addEventListener("keydown", toggleDirection);
 
 const restartBtn = document.querySelector("#replay");
