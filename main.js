@@ -330,7 +330,7 @@ audioBtn.addEventListener("click", () => {
 
 const shareBtn = document.querySelector("#share");
 shareBtn.addEventListener('click', () => {
-  const gameLink = "https://barrage-vert.vercel.app/";
+  const gameLink = "https://barrage-gibsonmurray.vercel.app/";
   const tweetText = "I just got a score of " + score + " on Barrage! Try and beat me: " + gameLink;
   const twitterUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweetText);
   window.open(twitterUrl, '_blank');
