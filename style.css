@@ -10,6 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 6px;
   background: #13e297;
   width: 100vw;
   height: 100vh;
@@ -75,4 +77,9 @@ main {
 #replay {
   scale: 0;
   cursor: pointer;
+}
+
+#tip {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.28);
 }
