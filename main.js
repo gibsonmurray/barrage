@@ -311,8 +311,7 @@ function toggleDirection(event) {
   }
 }
 
-const click = window.innerWidth < 1000 ? "tapstart" : "click";
-window.addEventListener(click, toggleDirection);
+window.addEventListener("click", toggleDirection);
 window.addEventListener("keydown", toggleDirection);
 
 const restartBtn = document.querySelector("#replay");
