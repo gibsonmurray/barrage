@@ -459,5 +459,3 @@ function playHighScoreMP3() {
 function randomNumBetween(min, max) {
   return Math.random() * (max - min + 1) + min;
 }
-
-// TODO: TOGGLE AUDIO, SHARE
